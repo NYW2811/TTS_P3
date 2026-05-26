@@ -1,6 +1,6 @@
 from config import archivo_entrada, texto_ejemplo
 
-
+# esta funcion carga el texto del archivo de entrada y si no existe crea uno con un default definido en ./config.py
 def cargar_texto():
     archivo_entrada.parent.mkdir(parents=True, exist_ok=True)
 

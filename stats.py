@@ -1,6 +1,6 @@
 import time
 
-
+# Es un temporizador sencillo para medir el tiempo transcurrido
 class Temporizador:
     def __init__(self):
         self.inicio = time.perf_counter()
@@ -8,7 +8,7 @@ class Temporizador:
     def transcurrido(self):
         return time.perf_counter() - self.inicio
 
-
+# Print sencillo
 def imprimir_resumen(registro, modo, cantidad_fragmentos, tiempo_total):
     registro.info(
         "Resumen %s: %s fragmentos procesados en %.2f segundos",

@@ -1,3 +1,8 @@
+"""
+Este archivo ejecuta de manera secuencial el programa principal
+esto para tener una referencia de tiempo con y sin concurrencia
+"""
+
 from logger import obtener_logger
 from stats import Temporizador, imprimir_resumen
 from text_loader import cargar_texto

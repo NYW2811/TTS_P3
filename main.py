@@ -1,3 +1,12 @@
+"""
+Este programa es un Text to speech (TTS)
+Procesa un texto largo dividiéndolo en fragmentos y generando audio para cada fragmento de manera concurrente
+Utiliza un logger para registrar el progreso y un temporizador para medir el tiempo total de procesamiento.
+Al final, imprime un resumen con los resultados obtenidos
+"""
+
+# Importaciones de los otros modulos del programa
+
 from logger import obtener_logger
 from stats import Temporizador, imprimir_resumen
 from text_loader import cargar_texto

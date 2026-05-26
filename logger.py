@@ -1,19 +1,19 @@
+# imports para logging
 import logging
 import time
 from pathlib import Path
-
 from config import archivo_log
 
 
 tiempo_inicio = time.perf_counter()
 
-
+# formato que incluye el tiempo transcurrido desde el inicio del programa
 class FormatoConTiempo(logging.Formatter):
     def format(self, registro):
         registro.transcurrido = f"{time.perf_counter() - tiempo_inicio:0.2f}s"
         return super().format(registro)
 
-
+# obtiene un logger configurado para escribirlo en archivo y consola
 def obtener_logger(nombre="tts_streaming"):
     Path(archivo_log).parent.mkdir(parents=True, exist_ok=True)
 

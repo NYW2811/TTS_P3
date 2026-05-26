@@ -1,5 +1,6 @@
 from pathlib import Path
 
+# Configuracion general para el programa 
 ruta_base = Path(__file__).resolve().parent
 carpeta_entrada = ruta_base / "input"
 carpeta_logs = ruta_base / "logs"

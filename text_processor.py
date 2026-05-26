@@ -1,5 +1,8 @@
 import unicodedata
 
+#-------------------------------------------------------------------------------------
+# Este archivo tiene las funciones para normalizar el texto y que funcione bien el tts
+#--------------------------------------------------------------------------------------
 
 def _reparar_texto_roto(texto):
     marcas_texto_roto = ("\u00c3", "\u00e2", "\u00f0")
