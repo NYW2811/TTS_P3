@@ -1,0 +1,536 @@
+17:58:04 | +0.26s | MainThread | INFO | Inicio modo concurrente/streaming con 2 fragmentos
+17:58:04 | +0.26s | tts_0 | INFO | Generando fragmento 1
+17:58:04 | +0.26s | tts_1 | INFO | Generando fragmento 2
+17:58:04 | +0.26s | tts_0 | WARNING | No se pudo generar TTS real (No module named 'pyttsx3'). Se crea audio silencioso.
+17:58:04 | +0.26s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+17:58:04 | +0.26s | MainThread | INFO | Reproduciendo fragmento 1
+17:58:04 | +0.26s | tts_1 | WARNING | No se pudo generar TTS real (No module named 'pyttsx3'). Se crea audio silencioso.
+17:58:04 | +0.26s | tts_1 | INFO | Fragmento 2 listo: fragmento_002.wav
+17:58:05 | +1.40s | MainThread | INFO | Termino fragmento 1
+17:58:05 | +1.40s | MainThread | INFO | Reproduciendo fragmento 2
+17:58:06 | +2.47s | MainThread | INFO | Termino fragmento 2
+17:58:06 | +2.47s | MainThread | INFO | Resumen concurrente: 2 fragmentos procesados en 2.23 segundos
+17:58:10 | +0.01s | MainThread | INFO | Inicio modo secuencial sin concurrencia con 2 fragmentos
+17:58:10 | +0.01s | MainThread | INFO | Generando fragmento 1
+17:58:10 | +0.01s | MainThread | WARNING | No se pudo generar TTS real (No module named 'pyttsx3'). Se crea audio silencioso.
+17:58:10 | +0.02s | MainThread | INFO | Fragmento 1 listo: fragmento_001.wav
+17:58:10 | +0.02s | MainThread | INFO | Reproduciendo fragmento 1
+17:58:12 | +1.20s | MainThread | INFO | Termino fragmento 1
+17:58:12 | +1.20s | MainThread | INFO | Generando fragmento 2
+17:58:12 | +1.20s | MainThread | WARNING | No se pudo generar TTS real (No module named 'pyttsx3'). Se crea audio silencioso.
+17:58:12 | +1.20s | MainThread | INFO | Fragmento 2 listo: fragmento_002.wav
+17:58:12 | +1.20s | MainThread | INFO | Reproduciendo fragmento 2
+17:58:13 | +2.34s | MainThread | INFO | Termino fragmento 2
+17:58:13 | +2.34s | MainThread | INFO | Resumen secuencial: 2 fragmentos procesados en 2.32 segundos
+18:18:08 | +0.01s | MainThread | INFO | Inicio modo concurrente/streaming con 2 fragmentos
+18:18:08 | +0.01s | tts_0 | INFO | Generando fragmento 1
+18:18:08 | +0.02s | tts_1 | INFO | Generando fragmento 2
+18:18:09 | +1.52s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:18:09 | +1.52s | MainThread | INFO | Reproduciendo fragmento 1
+18:18:20 | +11.88s | MainThread | INFO | Termino fragmento 1
+18:24:56 | +0.02s | MainThread | INFO | Inicio modo concurrente/streaming con 11 fragmentos
+18:24:56 | +0.02s | tts_0 | INFO | Generando fragmento 1
+18:24:56 | +0.02s | tts_1 | INFO | Generando fragmento 2
+18:24:56 | +0.44s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:24:56 | +0.44s | MainThread | INFO | Reproduciendo fragmento 1
+18:24:56 | +0.44s | tts_0 | INFO | Generando fragmento 3
+18:25:06 | +10.28s | MainThread | INFO | Termino fragmento 1
+18:27:26 | +0.03s | MainThread | INFO | Inicio modo concurrente/streaming con 11 fragmentos
+18:27:26 | +0.03s | tts_0 | INFO | Generando fragmento 1
+18:27:28 | +1.21s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:27:28 | +1.21s | MainThread | INFO | Reproduciendo fragmento 1
+18:27:28 | +1.21s | tts_0 | INFO | Generando fragmento 2
+18:27:29 | +2.29s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:27:29 | +2.29s | tts_0 | INFO | Generando fragmento 3
+18:27:29 | +2.66s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_003.wav', 'Permíteme decirte que te admiro y te amo apasionadamente, más de lo que mi orgullo quisiera admitir, no me es posible disfrazarlo de indiferencia, soy incapaz de contener mis']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:29 | +2.66s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:27:29 | +2.66s | tts_0 | INFO | Generando fragmento 4
+18:27:29 | +3.05s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_004.wav', 'sentimientos y estoy dispuesto a dejarlos a un lado y hacer caso a que ponga “fin” a esta agonía, aunque sé que este sentimiento no cede ante la prisa ni se disipa con facilidad, y']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:29 | +3.05s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:27:37 | +11.12s | MainThread | INFO | Termino fragmento 1
+18:27:37 | +11.12s | MainThread | INFO | Reproduciendo fragmento 2
+18:27:37 | +11.12s | tts_0 | INFO | Generando fragmento 5
+18:27:38 | +11.48s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_005.wav', 'aunque he cambiado y me duele reconocer todo lo que no supe hacer o no buscar las herramientas para mejorar cuando debía user-profile-picture Si en tu corazón ya no queda lo mismo']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:38 | +11.48s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:27:47 | +20.61s | MainThread | INFO | Termino fragmento 2
+18:27:47 | +20.61s | MainThread | INFO | Reproduciendo fragmento 3
+18:27:47 | +20.61s | tts_0 | INFO | Generando fragmento 6
+18:27:47 | +20.93s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_006.wav', 'de antes, o si aquello que alguna vez sentimos ha cambiado, lo aceptaré, aunque no me sea sencillo hacerlo, comprendo perfectamente tus sentimientos y sólo me resta avergonzarme de']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:47 | +20.93s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:27:48 | +21.76s | MainThread | INFO | Termino fragmento 3
+18:27:48 | +21.76s | MainThread | INFO | Reproduciendo fragmento 4
+18:27:48 | +21.76s | tts_0 | INFO | Generando fragmento 7
+18:27:48 | +22.07s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_007.wav', 'los míos Lamento ser siempre quien se expone de esta manera, quien no consigue contener lo que siente, pero ya he aceptado que mis emociones no están hechas para negarse, sino para']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:48 | +22.07s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:27:49 | +22.90s | MainThread | INFO | Termino fragmento 4
+18:27:49 | +22.90s | MainThread | INFO | Reproduciendo fragmento 5
+18:27:49 | +22.90s | tts_0 | INFO | Generando fragmento 8
+18:27:49 | +23.13s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_008.wav', 'confesarse cuando ya no hay otra salida o cuando estoy muy segura de ello y heme aquí 🙂 user-profile-picture Y ahora, me duele reconocer que quedo a tu disposición y a tu decisión,']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:49 | +23.13s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:27:50 | +24.03s | MainThread | INFO | Termino fragmento 5
+18:27:50 | +24.03s | MainThread | INFO | Reproduciendo fragmento 6
+18:27:50 | +24.03s | tts_0 | INFO | Generando fragmento 9
+18:27:51 | +24.35s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_009.wav', 'salvo que mi presencia te resulte perjudicial, pues sé que, de algún modo, lo es asi Quizá estas palabras nacen de mi debilidad, o de la sospecha de que esta será la última vez que']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:51 | +24.35s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:27:51 | +25.11s | MainThread | INFO | Termino fragmento 6
+18:27:51 | +25.11s | MainThread | INFO | Reproduciendo fragmento 7
+18:27:51 | +25.11s | tts_0 | INFO | Generando fragmento 10
+18:27:52 | +25.42s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_010.wav', 'tenga noticia de ti, pero aun así, lo único que deseo es tu bienestar, y si mi ausencia ha de concedértelo, entonces será suficiente Realmente espero que te encuentres muy bien']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:52 | +25.43s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:27:53 | +26.25s | MainThread | INFO | Termino fragmento 7
+18:27:53 | +26.25s | MainThread | INFO | Reproduciendo fragmento 8
+18:27:53 | +26.25s | tts_0 | INFO | Generando fragmento 11
+18:27:53 | +26.56s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($args[1]); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_011.wav', 'próximamente desde lo más profundo y más complejo de mi ser y existir']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:27:53 | +26.56s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:27:54 | +27.38s | MainThread | INFO | Termino fragmento 8
+18:27:54 | +27.38s | MainThread | INFO | Reproduciendo fragmento 9
+18:27:55 | +28.52s | MainThread | INFO | Termino fragmento 9
+18:27:55 | +28.52s | MainThread | INFO | Reproduciendo fragmento 10
+18:27:56 | +29.66s | MainThread | INFO | Termino fragmento 10
+18:27:56 | +29.66s | MainThread | INFO | Reproduciendo fragmento 11
+18:27:57 | +30.79s | MainThread | INFO | Termino fragmento 11
+18:27:57 | +30.79s | MainThread | INFO | Resumen concurrente: 11 fragmentos procesados en 30.77 segundos
+18:28:19 | +0.06s | MainThread | INFO | Inicio modo concurrente/streaming con 11 fragmentos
+18:28:19 | +0.06s | tts_0 | INFO | Generando fragmento 1
+18:28:20 | +0.87s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:28:20 | +0.87s | MainThread | INFO | Reproduciendo fragmento 1
+18:28:20 | +0.87s | tts_0 | INFO | Generando fragmento 2
+18:28:20 | +1.54s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:28:20 | +1.54s | tts_0 | INFO | Generando fragmento 3
+18:28:21 | +2.04s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:28:21 | +2.04s | tts_0 | INFO | Generando fragmento 4
+18:28:22 | +2.80s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:28:30 | +10.75s | MainThread | INFO | Termino fragmento 1
+18:28:30 | +10.75s | MainThread | INFO | Reproduciendo fragmento 2
+18:28:30 | +10.76s | tts_0 | INFO | Generando fragmento 5
+18:28:30 | +11.20s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:28:39 | +20.19s | MainThread | INFO | Termino fragmento 2
+18:28:39 | +20.19s | MainThread | INFO | Reproduciendo fragmento 3
+18:28:39 | +20.19s | tts_0 | INFO | Generando fragmento 6
+18:28:39 | +20.60s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:28:40 | +21.24s | MainThread | INFO | Termino fragmento 3
+18:28:40 | +21.24s | MainThread | INFO | Reproduciendo fragmento 4
+18:28:40 | +21.24s | tts_0 | INFO | Generando fragmento 7
+18:28:40 | +21.70s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:28:41 | +22.30s | MainThread | INFO | Termino fragmento 4
+18:28:41 | +22.30s | MainThread | INFO | Reproduciendo fragmento 5
+18:28:41 | +22.30s | tts_0 | INFO | Generando fragmento 8
+18:28:42 | +22.75s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:28:42 | +23.35s | MainThread | INFO | Termino fragmento 5
+18:28:42 | +23.35s | MainThread | INFO | Reproduciendo fragmento 6
+18:28:42 | +23.35s | tts_0 | INFO | Generando fragmento 9
+18:28:43 | +23.81s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:28:43 | +24.40s | MainThread | INFO | Termino fragmento 6
+18:28:43 | +24.40s | MainThread | INFO | Reproduciendo fragmento 7
+18:28:43 | +24.40s | tts_0 | INFO | Generando fragmento 10
+18:28:44 | +24.84s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:28:44 | +25.44s | MainThread | INFO | Termino fragmento 7
+18:28:44 | +25.44s | MainThread | INFO | Reproduciendo fragmento 8
+18:28:44 | +25.44s | tts_0 | INFO | Generando fragmento 11
+18:28:45 | +25.90s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:28:45 | +26.50s | MainThread | INFO | Termino fragmento 8
+18:28:45 | +26.50s | MainThread | INFO | Reproduciendo fragmento 9
+18:28:46 | +27.54s | MainThread | INFO | Termino fragmento 9
+18:28:46 | +27.54s | MainThread | INFO | Reproduciendo fragmento 10
+18:28:47 | +28.58s | MainThread | INFO | Termino fragmento 10
+18:28:47 | +28.58s | MainThread | INFO | Reproduciendo fragmento 11
+18:28:48 | +29.62s | MainThread | INFO | Termino fragmento 11
+18:28:48 | +29.62s | MainThread | INFO | Resumen concurrente: 11 fragmentos procesados en 29.57 segundos
+18:28:55 | +0.02s | MainThread | INFO | Inicio modo secuencial sin concurrencia con 11 fragmentos
+18:28:55 | +0.02s | MainThread | INFO | Generando fragmento 1
+18:28:56 | +0.80s | MainThread | INFO | Fragmento 1 listo: fragmento_001.wav
+18:28:56 | +0.80s | MainThread | INFO | Reproduciendo fragmento 1
+18:29:06 | +10.71s | MainThread | INFO | Termino fragmento 1
+18:29:06 | +10.71s | MainThread | INFO | Generando fragmento 2
+18:29:06 | +11.21s | MainThread | INFO | Fragmento 2 listo: fragmento_002.wav
+18:29:06 | +11.21s | MainThread | INFO | Reproduciendo fragmento 2
+18:29:16 | +20.64s | MainThread | INFO | Termino fragmento 2
+18:29:16 | +20.64s | MainThread | INFO | Generando fragmento 3
+18:29:16 | +21.04s | MainThread | INFO | Fragmento 3 listo: fragmento_003.wav
+18:29:16 | +21.04s | MainThread | INFO | Reproduciendo fragmento 3
+18:29:17 | +22.09s | MainThread | INFO | Termino fragmento 3
+18:29:17 | +22.09s | MainThread | INFO | Generando fragmento 4
+18:29:18 | +22.49s | MainThread | INFO | Fragmento 4 listo: fragmento_004.wav
+18:29:18 | +22.49s | MainThread | INFO | Reproduciendo fragmento 4
+18:29:19 | +23.53s | MainThread | INFO | Termino fragmento 4
+18:29:19 | +23.53s | MainThread | INFO | Generando fragmento 5
+18:29:19 | +23.93s | MainThread | INFO | Fragmento 5 listo: fragmento_005.wav
+18:29:19 | +23.93s | MainThread | INFO | Reproduciendo fragmento 5
+18:29:20 | +24.97s | MainThread | INFO | Termino fragmento 5
+18:29:20 | +24.97s | MainThread | INFO | Generando fragmento 6
+18:29:20 | +25.38s | MainThread | INFO | Fragmento 6 listo: fragmento_006.wav
+18:29:20 | +25.38s | MainThread | INFO | Reproduciendo fragmento 6
+18:29:21 | +26.42s | MainThread | INFO | Termino fragmento 6
+18:29:21 | +26.42s | MainThread | INFO | Generando fragmento 7
+18:29:22 | +26.81s | MainThread | INFO | Fragmento 7 listo: fragmento_007.wav
+18:29:22 | +26.81s | MainThread | INFO | Reproduciendo fragmento 7
+18:29:23 | +27.86s | MainThread | INFO | Termino fragmento 7
+18:29:23 | +27.87s | MainThread | INFO | Generando fragmento 8
+18:29:23 | +28.26s | MainThread | INFO | Fragmento 8 listo: fragmento_008.wav
+18:29:23 | +28.26s | MainThread | INFO | Reproduciendo fragmento 8
+18:29:24 | +29.31s | MainThread | INFO | Termino fragmento 8
+18:29:24 | +29.31s | MainThread | INFO | Generando fragmento 9
+18:29:25 | +29.71s | MainThread | INFO | Fragmento 9 listo: fragmento_009.wav
+18:29:25 | +29.71s | MainThread | INFO | Reproduciendo fragmento 9
+18:29:26 | +30.75s | MainThread | INFO | Termino fragmento 9
+18:29:26 | +30.75s | MainThread | INFO | Generando fragmento 10
+18:29:26 | +31.17s | MainThread | INFO | Fragmento 10 listo: fragmento_010.wav
+18:29:26 | +31.17s | MainThread | INFO | Reproduciendo fragmento 10
+18:29:27 | +32.22s | MainThread | INFO | Termino fragmento 10
+18:29:27 | +32.22s | MainThread | INFO | Generando fragmento 11
+18:29:28 | +32.71s | MainThread | INFO | Fragmento 11 listo: fragmento_011.wav
+18:29:28 | +32.71s | MainThread | INFO | Reproduciendo fragmento 11
+18:29:29 | +33.76s | MainThread | INFO | Termino fragmento 11
+18:29:29 | +33.76s | MainThread | INFO | Resumen secuencial: 11 fragmentos procesados en 33.74 segundos
+18:30:01 | +0.02s | MainThread | INFO | Inicio modo concurrente/streaming con 11 fragmentos
+18:30:01 | +0.02s | tts_0 | INFO | Generando fragmento 1
+18:30:01 | +0.86s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:30:01 | +0.86s | MainThread | INFO | Reproduciendo fragmento 1
+18:30:01 | +0.86s | tts_0 | INFO | Generando fragmento 2
+18:30:02 | +1.42s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:30:02 | +1.42s | tts_0 | INFO | Generando fragmento 3
+18:30:02 | +1.86s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:30:02 | +1.86s | tts_0 | INFO | Generando fragmento 4
+18:30:03 | +2.28s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:30:11 | +10.84s | MainThread | INFO | Termino fragmento 1
+18:30:11 | +10.84s | MainThread | INFO | Reproduciendo fragmento 2
+18:30:11 | +10.84s | tts_0 | INFO | Generando fragmento 5
+18:30:12 | +11.28s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:30:21 | +20.32s | MainThread | INFO | Termino fragmento 2
+18:30:21 | +20.32s | MainThread | INFO | Reproduciendo fragmento 3
+18:30:21 | +20.32s | tts_0 | INFO | Generando fragmento 6
+18:30:21 | +20.74s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:30:22 | +21.36s | MainThread | INFO | Termino fragmento 3
+18:30:22 | +21.36s | MainThread | INFO | Reproduciendo fragmento 4
+18:30:22 | +21.36s | tts_0 | INFO | Generando fragmento 7
+18:30:22 | +21.82s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:30:23 | +22.42s | MainThread | INFO | Termino fragmento 4
+18:30:23 | +22.42s | MainThread | INFO | Reproduciendo fragmento 5
+18:30:23 | +22.42s | tts_0 | INFO | Generando fragmento 8
+18:30:23 | +22.87s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:30:24 | +23.46s | MainThread | INFO | Termino fragmento 5
+18:30:24 | +23.46s | MainThread | INFO | Reproduciendo fragmento 6
+18:30:24 | +23.46s | tts_0 | INFO | Generando fragmento 9
+18:30:24 | +23.95s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:30:25 | +24.51s | MainThread | INFO | Termino fragmento 6
+18:30:25 | +24.51s | MainThread | INFO | Reproduciendo fragmento 7
+18:30:25 | +24.51s | tts_0 | INFO | Generando fragmento 10
+18:30:25 | +24.99s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:30:26 | +25.55s | MainThread | INFO | Termino fragmento 7
+18:30:26 | +25.55s | MainThread | INFO | Reproduciendo fragmento 8
+18:30:26 | +25.55s | tts_0 | INFO | Generando fragmento 11
+18:30:27 | +26.05s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:30:27 | +26.60s | MainThread | INFO | Termino fragmento 8
+18:30:27 | +26.60s | MainThread | INFO | Reproduciendo fragmento 9
+18:30:28 | +27.72s | MainThread | INFO | Termino fragmento 9
+18:30:28 | +27.72s | MainThread | INFO | Reproduciendo fragmento 10
+18:30:29 | +28.76s | MainThread | INFO | Termino fragmento 10
+18:30:29 | +28.76s | MainThread | INFO | Reproduciendo fragmento 11
+18:30:30 | +29.87s | MainThread | INFO | Termino fragmento 11
+18:30:30 | +29.87s | MainThread | INFO | Resumen concurrente: 11 fragmentos procesados en 29.85 segundos
+18:31:51 | +0.03s | MainThread | INFO | Inicio modo concurrente/streaming con 22 fragmentos
+18:31:51 | +0.03s | MainThread | INFO | Primer fragmento: He reflexionado largamente sobre lo que me pediste, y aunque intenté apartarlo de mi mente, no me fue posible,
+18:31:51 | +0.03s | tts_0 | INFO | Generando fragmento 1
+18:31:51 | +0.99s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:31:51 | +0.99s | MainThread | INFO | Reproduciendo fragmento 1
+18:31:51 | +0.99s | tts_0 | INFO | Generando fragmento 2
+18:31:52 | +1.54s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:31:52 | +1.54s | tts_0 | INFO | Generando fragmento 3
+18:31:52 | +2.00s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:31:53 | +2.00s | tts_0 | INFO | Generando fragmento 4
+18:31:53 | +2.44s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:32:01 | +10.89s | MainThread | INFO | Termino fragmento 1
+18:32:01 | +10.89s | MainThread | INFO | Reproduciendo fragmento 2
+18:32:01 | +10.89s | tts_0 | INFO | Generando fragmento 5
+18:32:02 | +11.36s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:32:11 | +20.32s | MainThread | INFO | Termino fragmento 2
+18:32:11 | +20.32s | MainThread | INFO | Reproduciendo fragmento 3
+18:32:11 | +20.32s | tts_0 | INFO | Generando fragmento 6
+18:32:11 | +20.77s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:32:12 | +21.44s | MainThread | INFO | Termino fragmento 3
+18:32:12 | +21.44s | MainThread | INFO | Reproduciendo fragmento 4
+18:32:12 | +21.45s | tts_0 | INFO | Generando fragmento 7
+18:32:12 | +21.95s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:32:13 | +22.49s | MainThread | INFO | Termino fragmento 4
+18:32:13 | +22.49s | MainThread | INFO | Reproduciendo fragmento 5
+18:32:13 | +22.49s | tts_0 | INFO | Generando fragmento 8
+18:32:14 | +23.02s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:32:14 | +23.54s | MainThread | INFO | Termino fragmento 5
+18:32:14 | +23.54s | MainThread | INFO | Reproduciendo fragmento 6
+18:32:14 | +23.54s | tts_0 | INFO | Generando fragmento 9
+18:32:14 | +24.00s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:32:15 | +24.59s | MainThread | INFO | Termino fragmento 6
+18:32:15 | +24.59s | MainThread | INFO | Reproduciendo fragmento 7
+18:32:15 | +24.59s | tts_0 | INFO | Generando fragmento 10
+18:32:16 | +25.16s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:32:16 | +25.64s | MainThread | INFO | Termino fragmento 7
+18:32:16 | +25.64s | MainThread | INFO | Reproduciendo fragmento 8
+18:32:16 | +25.64s | tts_0 | INFO | Generando fragmento 11
+18:32:17 | +26.09s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:32:17 | +26.69s | MainThread | INFO | Termino fragmento 8
+18:32:17 | +26.69s | MainThread | INFO | Reproduciendo fragmento 9
+18:32:17 | +26.69s | tts_0 | INFO | Generando fragmento 12
+18:32:18 | +27.05s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_012.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_012.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:18 | +27.06s | tts_0 | INFO | Fragmento 12 listo: fragmento_012.wav
+18:32:18 | +27.73s | MainThread | INFO | Termino fragmento 9
+18:32:18 | +27.73s | MainThread | INFO | Reproduciendo fragmento 10
+18:32:18 | +27.73s | tts_0 | INFO | Generando fragmento 13
+18:32:19 | +28.09s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_013.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_013.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:19 | +28.09s | tts_0 | INFO | Fragmento 13 listo: fragmento_013.wav
+18:32:19 | +28.78s | MainThread | INFO | Termino fragmento 10
+18:32:19 | +28.78s | MainThread | INFO | Reproduciendo fragmento 11
+18:32:19 | +28.78s | tts_0 | INFO | Generando fragmento 14
+18:32:20 | +29.13s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_014.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_014.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:20 | +29.13s | tts_0 | INFO | Fragmento 14 listo: fragmento_014.wav
+18:32:20 | +29.82s | MainThread | INFO | Termino fragmento 11
+18:32:20 | +29.82s | MainThread | INFO | Reproduciendo fragmento 12
+18:32:20 | +29.82s | tts_0 | INFO | Generando fragmento 15
+18:32:21 | +30.16s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_015.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_015.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:21 | +30.16s | tts_0 | INFO | Fragmento 15 listo: fragmento_015.wav
+18:32:21 | +30.93s | MainThread | INFO | Termino fragmento 12
+18:32:21 | +30.93s | MainThread | INFO | Reproduciendo fragmento 13
+18:32:21 | +30.94s | tts_0 | INFO | Generando fragmento 16
+18:32:22 | +31.34s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_016.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_016.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:22 | +31.34s | tts_0 | INFO | Fragmento 16 listo: fragmento_016.wav
+18:32:22 | +31.98s | MainThread | INFO | Termino fragmento 13
+18:32:22 | +31.98s | MainThread | INFO | Reproduciendo fragmento 14
+18:32:22 | +31.98s | tts_0 | INFO | Generando fragmento 17
+18:32:23 | +32.37s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_017.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_017.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:23 | +32.37s | tts_0 | INFO | Fragmento 17 listo: fragmento_017.wav
+18:32:24 | +33.03s | MainThread | INFO | Termino fragmento 14
+18:32:24 | +33.03s | MainThread | INFO | Reproduciendo fragmento 15
+18:32:24 | +33.03s | tts_0 | INFO | Generando fragmento 18
+18:32:24 | +33.38s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_018.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_018.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:24 | +33.39s | tts_0 | INFO | Fragmento 18 listo: fragmento_018.wav
+18:32:25 | +34.14s | MainThread | INFO | Termino fragmento 15
+18:32:25 | +34.14s | MainThread | INFO | Reproduciendo fragmento 16
+18:32:25 | +34.14s | tts_0 | INFO | Generando fragmento 19
+18:32:25 | +34.48s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_019.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_019.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:25 | +34.48s | tts_0 | INFO | Fragmento 19 listo: fragmento_019.wav
+18:32:26 | +35.19s | MainThread | INFO | Termino fragmento 16
+18:32:26 | +35.19s | MainThread | INFO | Reproduciendo fragmento 17
+18:32:26 | +35.19s | tts_0 | INFO | Generando fragmento 20
+18:32:26 | +35.53s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_020.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_020.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:26 | +35.54s | tts_0 | INFO | Fragmento 20 listo: fragmento_020.wav
+18:32:27 | +36.31s | MainThread | INFO | Termino fragmento 17
+18:32:27 | +36.31s | MainThread | INFO | Reproduciendo fragmento 18
+18:32:27 | +36.31s | tts_0 | INFO | Generando fragmento 21
+18:32:27 | +36.66s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_021.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_021.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:27 | +36.66s | tts_0 | INFO | Fragmento 21 listo: fragmento_021.wav
+18:32:28 | +37.42s | MainThread | INFO | Termino fragmento 18
+18:32:28 | +37.42s | MainThread | INFO | Reproduciendo fragmento 19
+18:32:28 | +37.42s | tts_0 | INFO | Generando fragmento 22
+18:32:28 | +37.78s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_022.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_022.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:32:28 | +37.79s | tts_0 | INFO | Fragmento 22 listo: fragmento_022.wav
+18:32:29 | +38.54s | MainThread | INFO | Termino fragmento 19
+18:32:29 | +38.54s | MainThread | INFO | Reproduciendo fragmento 20
+18:32:30 | +39.60s | MainThread | INFO | Termino fragmento 20
+18:32:30 | +39.60s | MainThread | INFO | Reproduciendo fragmento 21
+18:32:31 | +40.72s | MainThread | INFO | Termino fragmento 21
+18:32:31 | +40.72s | MainThread | INFO | Reproduciendo fragmento 22
+18:32:32 | +41.79s | MainThread | INFO | Termino fragmento 22
+18:32:32 | +41.79s | MainThread | INFO | Resumen concurrente: 22 fragmentos procesados en 41.76 segundos
+18:33:28 | +0.04s | MainThread | INFO | Inicio modo concurrente/streaming con 22 fragmentos
+18:33:28 | +0.04s | MainThread | INFO | Primer fragmento: He reflexionado largamente sobre lo que me pediste, y aunque intenté apartarlo de mi mente, no me fue posible,
+18:33:28 | +0.04s | tts_0 | INFO | Generando fragmento 1
+18:33:28 | +0.37s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_001.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_001.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:28 | +0.38s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:33:28 | +0.38s | MainThread | INFO | Reproduciendo fragmento 1
+18:33:28 | +0.38s | tts_0 | INFO | Generando fragmento 2
+18:33:29 | +0.73s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_002.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_002.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:29 | +0.73s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:33:29 | +0.73s | tts_0 | INFO | Generando fragmento 3
+18:33:29 | +1.08s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_003.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_003.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:29 | +1.08s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:33:29 | +1.08s | tts_0 | INFO | Generando fragmento 4
+18:33:29 | +1.42s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_004.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_004.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:29 | +1.42s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:33:30 | +1.51s | MainThread | INFO | Termino fragmento 1
+18:33:30 | +1.51s | MainThread | INFO | Reproduciendo fragmento 2
+18:33:30 | +1.52s | tts_0 | INFO | Generando fragmento 5
+18:33:30 | +1.87s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_005.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_005.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:30 | +1.87s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:33:31 | +2.66s | MainThread | INFO | Termino fragmento 2
+18:33:31 | +2.66s | MainThread | INFO | Reproduciendo fragmento 3
+18:33:31 | +2.66s | tts_0 | INFO | Generando fragmento 6
+18:33:31 | +3.24s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_006.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_006.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:31 | +3.25s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:33:32 | +3.74s | MainThread | INFO | Termino fragmento 3
+18:33:32 | +3.74s | MainThread | INFO | Reproduciendo fragmento 4
+18:33:32 | +3.74s | tts_0 | INFO | Generando fragmento 7
+18:33:32 | +4.15s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_007.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_007.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:32 | +4.15s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:33:33 | +4.79s | MainThread | INFO | Termino fragmento 4
+18:33:33 | +4.79s | MainThread | INFO | Reproduciendo fragmento 5
+18:33:33 | +4.79s | tts_0 | INFO | Generando fragmento 8
+18:33:33 | +5.17s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_008.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_008.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:33 | +5.17s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:33:34 | +5.85s | MainThread | INFO | Termino fragmento 5
+18:33:34 | +5.85s | MainThread | INFO | Reproduciendo fragmento 6
+18:33:34 | +5.85s | tts_0 | INFO | Generando fragmento 9
+18:33:34 | +6.18s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_009.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_009.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:34 | +6.19s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:33:35 | +6.97s | MainThread | INFO | Termino fragmento 6
+18:33:35 | +6.97s | MainThread | INFO | Reproduciendo fragmento 7
+18:33:35 | +6.97s | tts_0 | INFO | Generando fragmento 10
+18:33:35 | +7.29s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_010.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_010.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:35 | +7.29s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:33:36 | +8.09s | MainThread | INFO | Termino fragmento 7
+18:33:36 | +8.09s | MainThread | INFO | Reproduciendo fragmento 8
+18:33:36 | +8.09s | tts_0 | INFO | Generando fragmento 11
+18:33:36 | +8.41s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_011.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_011.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:36 | +8.41s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:33:37 | +9.14s | MainThread | INFO | Termino fragmento 8
+18:33:37 | +9.14s | MainThread | INFO | Reproduciendo fragmento 9
+18:33:37 | +9.14s | tts_0 | INFO | Generando fragmento 12
+18:33:37 | +9.45s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_012.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_012.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:37 | +9.45s | tts_0 | INFO | Fragmento 12 listo: fragmento_012.wav
+18:33:38 | +10.19s | MainThread | INFO | Termino fragmento 9
+18:33:38 | +10.19s | MainThread | INFO | Reproduciendo fragmento 10
+18:33:38 | +10.19s | tts_0 | INFO | Generando fragmento 13
+18:33:39 | +10.52s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_013.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_013.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:39 | +10.53s | tts_0 | INFO | Fragmento 13 listo: fragmento_013.wav
+18:33:39 | +11.30s | MainThread | INFO | Termino fragmento 10
+18:33:39 | +11.30s | MainThread | INFO | Reproduciendo fragmento 11
+18:33:39 | +11.31s | tts_0 | INFO | Generando fragmento 14
+18:33:40 | +11.69s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_014.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_014.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:40 | +11.69s | tts_0 | INFO | Fragmento 14 listo: fragmento_014.wav
+18:33:40 | +12.35s | MainThread | INFO | Termino fragmento 11
+18:33:40 | +12.35s | MainThread | INFO | Reproduciendo fragmento 12
+18:33:40 | +12.35s | tts_0 | INFO | Generando fragmento 15
+18:33:41 | +12.73s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_015.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_015.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:41 | +12.73s | tts_0 | INFO | Fragmento 15 listo: fragmento_015.wav
+18:33:41 | +13.47s | MainThread | INFO | Termino fragmento 12
+18:33:41 | +13.47s | MainThread | INFO | Reproduciendo fragmento 13
+18:33:41 | +13.47s | tts_0 | INFO | Generando fragmento 16
+18:33:42 | +13.80s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_016.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_016.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:42 | +13.80s | tts_0 | INFO | Fragmento 16 listo: fragmento_016.wav
+18:33:43 | +14.59s | MainThread | INFO | Termino fragmento 13
+18:33:43 | +14.59s | MainThread | INFO | Reproduciendo fragmento 14
+18:33:43 | +14.59s | tts_0 | INFO | Generando fragmento 17
+18:33:43 | +14.93s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_017.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_017.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:43 | +14.94s | tts_0 | INFO | Fragmento 17 listo: fragmento_017.wav
+18:33:44 | +15.64s | MainThread | INFO | Termino fragmento 14
+18:33:44 | +15.64s | MainThread | INFO | Reproduciendo fragmento 15
+18:33:44 | +15.64s | tts_0 | INFO | Generando fragmento 18
+18:33:44 | +15.96s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_018.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_018.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:44 | +15.96s | tts_0 | INFO | Fragmento 18 listo: fragmento_018.wav
+18:33:45 | +16.68s | MainThread | INFO | Termino fragmento 15
+18:33:45 | +16.68s | MainThread | INFO | Reproduciendo fragmento 16
+18:33:45 | +16.68s | tts_0 | INFO | Generando fragmento 19
+18:33:45 | +17.04s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_019.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_019.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:45 | +17.04s | tts_0 | INFO | Fragmento 19 listo: fragmento_019.wav
+18:33:46 | +17.80s | MainThread | INFO | Termino fragmento 16
+18:33:46 | +17.80s | MainThread | INFO | Reproduciendo fragmento 17
+18:33:46 | +17.80s | tts_0 | INFO | Generando fragmento 20
+18:33:46 | +18.15s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_020.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_020.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:46 | +18.15s | tts_0 | INFO | Fragmento 20 listo: fragmento_020.wav
+18:33:47 | +18.85s | MainThread | INFO | Termino fragmento 17
+18:33:47 | +18.85s | MainThread | INFO | Reproduciendo fragmento 18
+18:33:47 | +18.85s | tts_0 | INFO | Generando fragmento 21
+18:33:47 | +19.19s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_021.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_021.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:47 | +19.19s | tts_0 | INFO | Fragmento 21 listo: fragmento_021.wav
+18:33:48 | +19.97s | MainThread | INFO | Termino fragmento 18
+18:33:48 | +19.97s | MainThread | INFO | Reproduciendo fragmento 19
+18:33:48 | +19.97s | tts_0 | INFO | Generando fragmento 22
+18:33:48 | +20.33s | tts_0 | WARNING | No se pudo generar TTS real (Command '['powershell', '-NoProfile', '-Command', 'Add-Type -AssemblyName System.Speech; $text = [System.IO.File]::ReadAllText($args[1], [System.Text.Encoding]::UTF8); $voice = New-Object System.Speech.Synthesis.SpeechSynthesizer; $voice.SetOutputToWaveFile($args[0]); $voice.Speak($text); $voice.Dispose();', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_022.wav', 'C:\\Users\\USER\\Desktop\\progra3\\TTS_P3\\temp_audio\\fragmento_022.txt']' returned non-zero exit status 1.). Se crea audio silencioso.
+18:33:48 | +20.34s | tts_0 | INFO | Fragmento 22 listo: fragmento_022.wav
+18:33:49 | +21.02s | MainThread | INFO | Termino fragmento 19
+18:33:49 | +21.02s | MainThread | INFO | Reproduciendo fragmento 20
+18:33:50 | +22.13s | MainThread | INFO | Termino fragmento 20
+18:33:50 | +22.13s | MainThread | INFO | Reproduciendo fragmento 21
+18:33:51 | +23.25s | MainThread | INFO | Termino fragmento 21
+18:33:51 | +23.25s | MainThread | INFO | Reproduciendo fragmento 22
+18:33:52 | +24.29s | MainThread | INFO | Termino fragmento 22
+18:33:52 | +24.29s | MainThread | INFO | Resumen concurrente: 22 fragmentos procesados en 24.25 segundos
+18:34:33 | +0.03s | MainThread | INFO | Inicio modo concurrente/streaming con 22 fragmentos
+18:34:33 | +0.03s | MainThread | INFO | Primer fragmento: He reflexionado largamente sobre lo que me pediste, y aunque intenté apartarlo de mi mente, no me fue posible,
+18:34:33 | +0.03s | tts_0 | INFO | Generando fragmento 1
+18:34:34 | +0.49s | tts_0 | INFO | Fragmento 1 listo: fragmento_001.wav
+18:34:34 | +0.49s | MainThread | INFO | Reproduciendo fragmento 1
+18:34:34 | +0.49s | tts_0 | INFO | Generando fragmento 2
+18:34:34 | +0.93s | tts_0 | INFO | Fragmento 2 listo: fragmento_002.wav
+18:34:34 | +0.93s | tts_0 | INFO | Generando fragmento 3
+18:34:35 | +1.38s | tts_0 | INFO | Fragmento 3 listo: fragmento_003.wav
+18:34:35 | +1.39s | tts_0 | INFO | Generando fragmento 4
+18:34:35 | +1.87s | tts_0 | INFO | Fragmento 4 listo: fragmento_004.wav
+18:34:41 | +8.00s | MainThread | INFO | Termino fragmento 1
+18:34:41 | +8.00s | MainThread | INFO | Reproduciendo fragmento 2
+18:34:41 | +8.00s | tts_0 | INFO | Generando fragmento 5
+18:34:42 | +8.40s | tts_0 | INFO | Fragmento 5 listo: fragmento_005.wav
+18:34:49 | +15.99s | MainThread | INFO | Termino fragmento 2
+18:34:49 | +15.99s | MainThread | INFO | Reproduciendo fragmento 3
+18:34:49 | +15.99s | tts_0 | INFO | Generando fragmento 6
+18:34:50 | +16.40s | tts_0 | INFO | Fragmento 6 listo: fragmento_006.wav
+18:34:57 | +23.36s | MainThread | INFO | Termino fragmento 3
+18:34:57 | +23.36s | MainThread | INFO | Reproduciendo fragmento 4
+18:34:57 | +23.36s | tts_0 | INFO | Generando fragmento 7
+18:34:57 | +23.76s | tts_0 | INFO | Fragmento 7 listo: fragmento_007.wav
+18:35:00 | +26.36s | MainThread | INFO | Termino fragmento 4
+18:35:00 | +26.36s | MainThread | INFO | Reproduciendo fragmento 5
+18:35:00 | +26.36s | tts_0 | INFO | Generando fragmento 8
+18:35:00 | +26.75s | tts_0 | INFO | Fragmento 8 listo: fragmento_008.wav
+18:35:04 | +30.53s | MainThread | INFO | Termino fragmento 5
+18:35:04 | +30.53s | MainThread | INFO | Reproduciendo fragmento 6
+18:35:04 | +30.53s | tts_0 | INFO | Generando fragmento 9
+18:35:04 | +30.93s | tts_0 | INFO | Fragmento 9 listo: fragmento_009.wav
+18:35:11 | +37.53s | MainThread | INFO | Termino fragmento 6
+18:35:11 | +37.53s | MainThread | INFO | Reproduciendo fragmento 7
+18:35:11 | +37.53s | tts_0 | INFO | Generando fragmento 10
+18:35:11 | +37.93s | tts_0 | INFO | Fragmento 10 listo: fragmento_010.wav
+18:35:18 | +44.27s | MainThread | INFO | Termino fragmento 7
+18:35:18 | +44.27s | MainThread | INFO | Reproduciendo fragmento 8
+18:35:18 | +44.27s | tts_0 | INFO | Generando fragmento 11
+18:35:18 | +44.68s | tts_0 | INFO | Fragmento 11 listo: fragmento_011.wav
+18:35:24 | +51.23s | MainThread | INFO | Termino fragmento 8
+18:35:24 | +51.23s | MainThread | INFO | Reproduciendo fragmento 9
+18:35:24 | +51.23s | tts_0 | INFO | Generando fragmento 12
+18:35:25 | +51.61s | tts_0 | INFO | Fragmento 12 listo: fragmento_012.wav
+18:35:30 | +57.20s | MainThread | INFO | Termino fragmento 9
+18:35:30 | +57.20s | MainThread | INFO | Reproduciendo fragmento 10
+18:35:30 | +57.20s | tts_0 | INFO | Generando fragmento 13
+18:35:31 | +57.59s | tts_0 | INFO | Fragmento 13 listo: fragmento_013.wav
+18:35:38 | +64.42s | MainThread | INFO | Termino fragmento 10
+18:35:38 | +64.42s | MainThread | INFO | Reproduciendo fragmento 11
+18:35:38 | +64.43s | tts_0 | INFO | Generando fragmento 14
+18:35:38 | +65.03s | tts_0 | INFO | Fragmento 14 listo: fragmento_014.wav
+18:35:45 | +71.63s | MainThread | INFO | Termino fragmento 11
+18:35:45 | +71.63s | MainThread | INFO | Reproduciendo fragmento 12
+18:35:45 | +71.63s | tts_0 | INFO | Generando fragmento 15
+18:35:45 | +72.02s | tts_0 | INFO | Fragmento 15 listo: fragmento_015.wav
+18:35:46 | +73.23s | MainThread | INFO | Termino fragmento 12
+18:35:46 | +73.23s | MainThread | INFO | Reproduciendo fragmento 13
+18:35:46 | +73.23s | tts_0 | INFO | Generando fragmento 16
+18:35:47 | +73.64s | tts_0 | INFO | Fragmento 16 listo: fragmento_016.wav
+18:35:54 | +80.28s | MainThread | INFO | Termino fragmento 13
+18:35:54 | +80.28s | MainThread | INFO | Reproduciendo fragmento 14
+18:35:54 | +80.28s | tts_0 | INFO | Generando fragmento 17
+18:35:54 | +80.67s | tts_0 | INFO | Fragmento 17 listo: fragmento_017.wav
+18:36:01 | +87.48s | MainThread | INFO | Termino fragmento 14
+18:36:01 | +87.48s | MainThread | INFO | Reproduciendo fragmento 15
+18:36:01 | +87.48s | tts_0 | INFO | Generando fragmento 18
+18:36:01 | +87.87s | tts_0 | INFO | Fragmento 18 listo: fragmento_018.wav
+18:36:04 | +90.79s | MainThread | INFO | Termino fragmento 15
+18:36:04 | +90.79s | MainThread | INFO | Reproduciendo fragmento 16
+18:36:04 | +90.79s | tts_0 | INFO | Generando fragmento 19
+18:36:04 | +91.19s | tts_0 | INFO | Fragmento 19 listo: fragmento_019.wav
+18:36:11 | +98.14s | MainThread | INFO | Termino fragmento 16
+18:36:11 | +98.14s | MainThread | INFO | Reproduciendo fragmento 17
+18:36:11 | +98.14s | tts_0 | INFO | Generando fragmento 20
+18:36:12 | +98.60s | tts_0 | INFO | Fragmento 20 listo: fragmento_020.wav
+18:36:16 | +102.94s | MainThread | INFO | Termino fragmento 17
+18:36:16 | +102.94s | MainThread | INFO | Reproduciendo fragmento 18
+18:36:16 | +102.94s | tts_0 | INFO | Generando fragmento 21
+18:36:17 | +103.36s | tts_0 | INFO | Fragmento 21 listo: fragmento_021.wav
+18:36:23 | +109.89s | MainThread | INFO | Termino fragmento 18
+18:36:23 | +109.89s | MainThread | INFO | Reproduciendo fragmento 19
+18:36:23 | +109.89s | tts_0 | INFO | Generando fragmento 22
+18:36:24 | +110.33s | tts_0 | INFO | Fragmento 22 listo: fragmento_022.wav
+18:36:31 | +118.21s | MainThread | INFO | Termino fragmento 19
+18:36:31 | +118.21s | MainThread | INFO | Reproduciendo fragmento 20
+18:36:33 | +119.96s | MainThread | INFO | Termino fragmento 20
+18:36:33 | +119.96s | MainThread | INFO | Reproduciendo fragmento 21
+18:36:40 | +126.62s | MainThread | INFO | Termino fragmento 21
+18:36:40 | +126.62s | MainThread | INFO | Reproduciendo fragmento 22
+18:36:41 | +128.24s | MainThread | INFO | Termino fragmento 22
+18:36:41 | +128.24s | MainThread | INFO | Resumen concurrente: 22 fragmentos procesados en 128.21 segundos
